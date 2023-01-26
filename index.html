@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jhaka Naka Production</title>
+    <!-- Tailwind File -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Custom Tailwind -->
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                yellow: '#FECC02',
+                grey: '#4E4E4E',
+                black: '#131313',
+                white0: '#FFFFFF',
+              },
+              fontFamily: {
+                bebas: ["Bebas Neue", "cursive"],
+                montserrat: ["Montserrat", "sans-serif"],
+              },
+            },
+          },
+        }
+      </script>
+</head>
+<body>
+    <!-- Header start -->
+    <header>
+        <!-- Nav Bar -->
+    <nav class="bg-white fixed top-0 right-0 left-0">
+        <div class="flex justify-between items-center h-20 w-full max-w-7xl mx-auto font-bebas px-5">
+            <h1 class="text-xl">Jhaka Naka Production</h1>
+            <ul class="flex text-lg gap-8">
+                <li>About US</li>
+                <li>Our Movie</li>
+                <li>Services</li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Main Header -->
+    <section class="h-screen pt-20 bg-[url('./images/banner.jpg')] bg-cover">
+        <div class="h-full w-full max-w-7xl mx-auto px-5 flex items-center">
+            <div class="font-bebas">
+                <h1 class="text-white0">Movie production studio</h1>
+                <h2 class="uppercase text-7xl text-white0">Films MAde to</h2>
+                <h2 class="uppercase text-yellow text-7xl">Perfection</h2>
+                <p class="uppercase text-white0 max-w-lg mb-10">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque quaerat eaque sit voluptatibus optio eos asperiores repellat ratione eveniet.
+                </p>
+                <button class="border-2 border-white0 px-3 py-2 hover:bg-yellow hover:text-black transition-all">Discover More</button>
+            </div>
+        </div>
+    </section>
+    </header>
+    <!-- Header End -->
+</body>
+</html>
